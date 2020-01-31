@@ -1,14 +1,13 @@
-package com.trak.activitytracker;
+package com.example.demo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ActivityTrackerApplication {
+public class TodoApplication {
 
 	public static void main(String[] args) {
-
-		SpringApplication.run(ActivityTrackerApplication.class, args);
+		SpringApplication.run(TodoApplication.class, args);
 	}
 
 }
